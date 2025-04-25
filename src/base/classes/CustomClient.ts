@@ -1,6 +1,6 @@
 import { Client, Collection } from 'discord.js';
 
-import { config } from '@/config';
+import { config } from '@/utils/config';
 import { ICustomClient } from '@/base/interfaces/ICustomClient';
 import { ICommand } from '@/base/interfaces/ICommand';
 import { loadCommands } from '@/loaders/loadCommands';
