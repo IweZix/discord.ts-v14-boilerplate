@@ -4,6 +4,7 @@ dotenv.config();
 
 const {
     TOKEN,
+    ID,
     COLOR,
     DEVELOPER_ID,
     VERSION,
@@ -14,6 +15,7 @@ const {
 
 if (
     !TOKEN ||
+    !ID ||
     !COLOR ||
     !DEVELOPER_ID ||
     !VERSION ||
@@ -26,6 +28,7 @@ if (
 
 export const config = {
     token: TOKEN,
+    id: ID,
     color: COLOR,
     developerId: DEVELOPER_ID,
     version: VERSION,
